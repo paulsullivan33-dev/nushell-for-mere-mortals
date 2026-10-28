@@ -1,0 +1,7 @@
+$ nu -c 'open scores.json | to csv'
+player,game,points
+Ana,chess,12
+Ben,chess,9
+Ana,go,7
+Cleo,go,15
+[exit 0]

@@ -1,0 +1,7 @@
+$ nu -c '$env.config.table.mode'
+rounded
+[exit 0]
+
+$ nu --config myconfig.nu -c '$env.config.table.mode'
+basic
+[exit 0]

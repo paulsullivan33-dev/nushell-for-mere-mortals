@@ -1,0 +1,13 @@
+$ nu -c '"abc" + 1'
+Error: nu::parser::operator_incompatible_types
+
+  x Types 'string' and 'int' are not compatible for the '+' operator.
+   ,-[source:1:1]
+ 1 | "abc" + 1
+   : ^^|^^ | |
+   :   |   | `-- int
+   :   |   `-- does not operate between 'string' and 'int'
+   :   `-- string
+   `----
+
+[exit 1]

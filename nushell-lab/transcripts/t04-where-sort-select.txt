@@ -1,0 +1,9 @@
+$ nu -c 'open books.csv | where year > 2000 | sort-by pages | select title pages year'
+╭───┬────────────────────────────────┬───────┬──────╮
+│ # │             title              │ pages │ year │
+├───┼────────────────────────────────┼───────┼──────┤
+│ 0 │ Piranesi                       │   272 │ 2020 │
+│ 1 │ The City & The City            │   312 │ 2009 │
+│ 2 │ The Making of Prince of Persia │   320 │ 2020 │
+╰───┴────────────────────────────────┴───────┴──────╯
+[exit 0]

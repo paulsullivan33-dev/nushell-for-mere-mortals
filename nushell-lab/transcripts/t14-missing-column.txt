@@ -1,0 +1,14 @@
+$ nu -c 'open books.csv | get isbn'
+Error: nu::shell::column_not_found
+
+  x Cannot find column 'isbn'
+   ,-[source:1:1]
+ 1 | open books.csv | get isbn
+   : ^^|^                 ^^|^
+   :   |                    `-- column 'isbn' is missing in one or more values
+   :   `-- value originates here
+   `----
+  help: If some rows have this column, try using 'isbn?' for optional access,
+        or pre-fill using the `default` command
+
+[exit 1]

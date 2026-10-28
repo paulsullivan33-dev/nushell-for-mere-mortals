@@ -1,0 +1,9 @@
+$ nu -c 'open scores.json | group-by --to-table player'
+╭───┬────────┬────────────────╮
+│ # │ player │     items      │
+├───┼────────┼────────────────┤
+│ 0 │ Ana    │ [table 2 rows] │
+│ 1 │ Ben    │ [table 1 row]  │
+│ 2 │ Cleo   │ [table 1 row]  │
+╰───┴────────┴────────────────╯
+[exit 0]

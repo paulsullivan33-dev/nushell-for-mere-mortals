@@ -1,0 +1,3 @@
+$ nu -c '^echo hello-from-external'
+hello-from-external
+[exit 0]

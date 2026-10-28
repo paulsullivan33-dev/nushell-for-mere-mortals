@@ -1,0 +1,3 @@
+$ nu -c 'open books.csv | describe'
+table<title: string, author: string, pages: int, year: int> (stream)
+[exit 0]

@@ -1,0 +1,15 @@
+$ nu -c 'ls'
+╭───┬───────────────┬──────┬───────┬──────────╮
+│ # │     name      │ type │ size  │ modified │
+├───┼───────────────┼──────┼───────┼──────────┤
+│ 0 │ books.csv     │ file │ 257 B │ now      │
+│ 1 │ greet.nu      │ file │  84 B │ now      │
+│ 2 │ menu.yaml     │ file │  49 B │ now      │
+│ 3 │ messy.csv     │ file │  44 B │ now      │
+│ 4 │ myconfig.nu   │ file │  67 B │ now      │
+│ 5 │ notes.txt     │ file │  41 B │ now      │
+│ 6 │ prices.csv    │ file │  28 B │ now      │
+│ 7 │ scores.json   │ file │ 204 B │ now      │
+│ 8 │ settings.toml │ file │  48 B │ now      │
+╰───┴───────────────┴──────┴───────┴──────────╯
+[exit 0]

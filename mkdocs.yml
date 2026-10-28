@@ -1,0 +1,26 @@
+site_name: Nushell for Mere Mortals
+site_description: A shell where pipelines carry tables instead of text. Opening CSV and JSON files as data you can filter and sort by column name, converting between formats, mixing in ordinary programs, and meeting the type system that refuses to add a string to a number, with the limits stated plainly.
+site_url: https://paulsullivan33-dev.github.io/nushell-for-mere-mortals/
+copyright: 'Part of <a href="https://paulsullivan33-dev.github.io/mere-mortals/">For Mere Mortals</a> · Text <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, code MIT'
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Nushell Is: what-nushell-is.md
+  - Installing Nushell: installing-nushell.md
+  - A First Look: first-look.md
+  - Working with Files of Data: working-with-files.md
+  - Pipelines and Types: pipelines-and-types.md
+  - Reshaping Data: reshaping-data.md
+  - External Commands: external-commands.md
+  - Scripts and Configuration: scripts-and-config.md
+  - Recipes: recipes.md
+  - The Neighbours: the-neighbours.md
+  - Limits: limits.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md

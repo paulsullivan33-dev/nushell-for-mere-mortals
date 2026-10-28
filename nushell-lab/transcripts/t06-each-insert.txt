@@ -1,0 +1,11 @@
+$ nu -c 'open books.csv | insert est_words { |row| $row.pages * 250 } | select title est_words'
+╭───┬────────────────────────────────┬───────────╮
+│ # │             title              │ est_words │
+├───┼────────────────────────────────┼───────────┤
+│ 0 │ The Left Hand of Darkness      │     76000 │
+│ 1 │ A Wizard of Earthsea           │     45750 │
+│ 2 │ The Making of Prince of Persia │     80000 │
+│ 3 │ Piranesi                       │     68000 │
+│ 4 │ The City & The City            │     78000 │
+╰───┴────────────────────────────────┴───────────╯
+[exit 0]

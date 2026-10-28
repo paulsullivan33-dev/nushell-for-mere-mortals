@@ -1,0 +1,12 @@
+$ nu -c 'open messy.csv | get pages | math sum'
+Error: nu::shell::only_supports_this_input_type
+
+  x Input type not supported.
+   ,-[source:1:1]
+ 1 | open messy.csv | get pages | math sum
+   : ^^|^                         ^^^^|^^^
+   :   |                              `-- only int, float, filesize, or duration input data is supported
+   :   `-- input type: string
+   `----
+
+[exit 1]

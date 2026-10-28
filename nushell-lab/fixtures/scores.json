@@ -1,0 +1,6 @@
+[
+  {"player": "Ana", "game": "chess", "points": 12},
+  {"player": "Ben", "game": "chess", "points": 9},
+  {"player": "Ana", "game": "go", "points": 7},
+  {"player": "Cleo", "game": "go", "points": 15}
+]

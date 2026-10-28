@@ -1,0 +1,3 @@
+$ nu -c 'open messy.csv | where pages != "unknown" | update pages { into int } | get pages | math sum'
+215
+[exit 0]
